@@ -2555,9 +2555,7 @@ a {
 
 /* ── 28 Languages ───────────────────────────────────────────── */
 /* Prices use clear, Georgian-compatible numerals in English, Russian and Turkish. */
-:lang(en),
-:lang(ru),
-:lang(tr) {
+:lang(en), :lang(ru), :lang(tr) {
   --ff-numerals: "Noto Serif Georgian", "Cormorant Garamond", Georgia, serif;
 }
 
@@ -4724,14 +4722,10 @@ p {
   border-radius: 999px;
   background: rgba(22, 20, 18, 0.045);
   color: var(--color-charcoal);
-  font:
-    600 0.75rem/1 "Inter",
-    sans-serif;
+  font: 600 0.75rem/1 "Inter", sans-serif;
   letter-spacing: 0.025em;
   cursor: pointer;
-  transition:
-    background 0.2s ease,
-    border-color 0.2s ease;
+  transition: background 0.2s ease, border-color 0.2s ease;
 }
 .language-picker .language-picker-trigger:hover,
 .language-picker .language-picker-trigger[aria-expanded="true"] {
@@ -4756,9 +4750,7 @@ p {
   opacity: 0.65;
   transition: transform 0.2s ease;
 }
-.language-picker
-  .language-picker-trigger[aria-expanded="true"]
-  .language-picker-chevron {
+.language-picker .language-picker-trigger[aria-expanded="true"] .language-picker-chevron {
   transform: rotate(180deg);
 }
 .language-picker .language-picker-menu {
@@ -4786,9 +4778,7 @@ p {
   border-radius: 0.5rem;
   background: transparent;
   color: var(--color-charcoal);
-  font:
-    500 0.85rem/1.2 "Inter",
-    sans-serif;
+  font: 500 0.85rem/1.2 "Inter", sans-serif;
   letter-spacing: 0;
   text-align: left;
   opacity: 1;
@@ -4827,7 +4817,10 @@ p {
 @media (max-width: 1100px) {
   .site-header .inner {
     grid-template-columns: auto minmax(0, 1fr) auto auto !important;
-    grid-template-areas: "burger logo lang actions" !important;
+    grid-template-rows: 64px auto !important;
+    grid-template-areas:
+      "burger logo lang actions"
+      "nav nav nav nav" !important;
   }
   .header-actions > .language-picker {
     display: inline-flex !important;
@@ -4837,6 +4830,11 @@ p {
   }
   .site-nav .nav-extra .language-picker {
     display: none !important;
+  }
+  .site-header .site-nav.open {
+    grid-column: 1 / -1;
+    background: var(--color-canvas, #f4f1ea) !important;
+    border-top: 1px solid var(--color-ink-hairline);
   }
 }
 .language-picker .language-picker-flag svg {
