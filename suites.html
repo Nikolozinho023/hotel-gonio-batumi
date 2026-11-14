@@ -1,0 +1,1293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rooms &amp; Suites — Hotel Gonio Batumi</title>
+    <meta
+      name="description"
+      content="Rooms at Hotel Gonio Batumi: 300 m from the Black Sea and 50 m from Batumi New Boulevard. Breakfast included."
+    />
+    <link rel="icon" href="public/Icons/Site-Icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Cinzel:wght@400;500&family=Noto+Sans+Georgian:wght@300;400;500;600&family=Noto+Serif+Georgian:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/intl-tel-input@29.5.0/dist/css/intlTelInput.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="suites">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- ====================== HEADER ====================== -->
+    <header class="site-header">
+      <div class="container inner">
+        <a href="index.html" class="site-logo">
+          <span class="site-logo-emblem"
+            ><img src="public/Icons/ICON.png" width="40" height="40" alt=""
+          /></span>
+          <span class="site-logo-name" data-i18n="logo_name"
+            >Hotel Gonio Batumi</span
+          >
+        </a>
+
+        <nav class="site-nav" id="mainNav" aria-label="Main">
+          <a href="index.html" data-page="home" data-i18n="nav_home">Home</a>
+          <a
+            href="suites.html"
+            data-page="suites"
+            class="active"
+            aria-current="page"
+            data-i18n="nav_suites"
+            >Suites</a
+          >
+          <a
+            href="index.html#why-choose-hotel"
+            data-page="about"
+            data-i18n="nav_about"
+            >About</a
+          >
+          <a
+            href="index.html#facilities"
+            data-page="facilities"
+            data-i18n="nav_facilities"
+            >Facilities</a
+          >
+          <a
+            href="index.html#gallery"
+            data-page="gallery"
+            data-i18n="nav_gallery"
+            >Gallery</a
+          >
+          <a
+            href="index.html#location"
+            data-page="location"
+            data-i18n="nav_location"
+            >Location</a
+          >
+          <a
+            href="index.html#contact"
+            data-page="contact"
+            data-i18n="nav_contact"
+            >Contact</a
+          >
+          <div class="nav-extra">
+            <div
+              class="lang-switcher language-picker"
+              role="group"
+              aria-label="Choose language"
+            >
+              <button
+                class="language-picker-trigger"
+                type="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <span class="language-picker-flag" aria-hidden="true"></span>
+                <span class="language-picker-name">English</span>
+                <span
+                  class="material-symbols-outlined language-picker-chevron"
+                  aria-hidden="true"
+                  >expand_more</span
+                >
+              </button>
+              <div
+                class="language-picker-menu"
+                role="group"
+                aria-label="Select a language"
+                hidden
+              >
+                <button
+                  class="language-picker-option"
+                  type="button"
+                  data-lang="en"
+                  aria-pressed="true"
+                >
+                  <span class="language-picker-flag" aria-hidden="true"></span
+                  ><span>English</span>
+                </button>
+                <button
+                  class="language-picker-option"
+                  type="button"
+                  data-lang="ka"
+                  aria-pressed="false"
+                >
+                  <span class="language-picker-flag" aria-hidden="true"></span
+                  ><span>ქართული</span>
+                </button>
+                <button
+                  class="language-picker-option"
+                  type="button"
+                  data-lang="ru"
+                  aria-pressed="false"
+                >
+                  <span class="language-picker-flag" aria-hidden="true"></span
+                  ><span>Русский</span>
+                </button>
+                <button
+                  class="language-picker-option"
+                  type="button"
+                  data-lang="tr"
+                  aria-pressed="false"
+                >
+                  <span class="language-picker-flag" aria-hidden="true"></span
+                  ><span>Türkçe</span>
+                </button>
+              </div>
+            </div>
+            <button class="btn btn-primary" onclick="openBookingModal('')">
+              <span data-i18n="nav_book_now">Book Now</span>
+            </button>
+          </div>
+        </nav>
+
+        <div class="header-actions">
+          <div
+            class="lang-switcher language-picker"
+            role="group"
+            aria-label="Choose language"
+          >
+            <button
+              class="language-picker-trigger"
+              type="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <span class="language-picker-flag" aria-hidden="true"></span>
+              <span class="language-picker-name">English</span>
+              <span
+                class="material-symbols-outlined language-picker-chevron"
+                aria-hidden="true"
+                >expand_more</span
+              >
+            </button>
+            <div
+              class="language-picker-menu"
+              role="group"
+              aria-label="Select a language"
+              hidden
+            >
+              <button
+                class="language-picker-option"
+                type="button"
+                data-lang="en"
+                aria-pressed="true"
+              >
+                <span class="language-picker-flag" aria-hidden="true"></span
+                ><span>English</span>
+              </button>
+              <button
+                class="language-picker-option"
+                type="button"
+                data-lang="ka"
+                aria-pressed="false"
+              >
+                <span class="language-picker-flag" aria-hidden="true"></span
+                ><span>ქართული</span>
+              </button>
+              <button
+                class="language-picker-option"
+                type="button"
+                data-lang="ru"
+                aria-pressed="false"
+              >
+                <span class="language-picker-flag" aria-hidden="true"></span
+                ><span>Русский</span>
+              </button>
+              <button
+                class="language-picker-option"
+                type="button"
+                data-lang="tr"
+                aria-pressed="false"
+              >
+                <span class="language-picker-flag" aria-hidden="true"></span
+                ><span>Türkçe</span>
+              </button>
+            </div>
+          </div>
+          <button
+            type="button"
+            class="btn btn-primary btn-sm"
+            onclick="openBookingModal('')"
+          >
+            <span data-i18n="nav_book_now">Book Now</span>
+          </button>
+          <button
+            type="button"
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-controls="mainNav"
+            aria-label="Toggle navigation"
+          >
+            <span class="material-symbols-outlined" aria-hidden="true"
+              >menu</span
+            >
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ====================== PAGE HERO ====================== -->
+      <section class="page-hero">
+        <div class="container">
+          <div class="accent-line accent-line--start">
+            <span class="accent-label" data-i18n="logo_name"
+              >Hotel Gonio Batumi</span
+            >
+          </div>
+          <h1 class="h1">
+            <span data-i18n="sp_h1">Suites &amp; Accommodations</span>
+          </h1>
+          <p class="subhead page-hero__tagline" data-i18n="sp_tagline">
+            Comfortable rooms in Batumi.
+          </p>
+          <ul class="page-hero__points">
+            <li>
+              <span class="material-symbols-outlined" aria-hidden="true"
+                >waves</span
+              ><span data-i18n="hero_f1">300 m to the sea</span>
+            </li>
+            <li>
+              <span class="material-symbols-outlined" aria-hidden="true"
+                >free_breakfast</span
+              ><span data-i18n="hero_f3">Breakfast included</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ====================== FILTER BAR ====================== -->
+      <section class="filter-section" aria-label="Filter rooms">
+        <div class="container filter-section__inner">
+          <div class="filter-bar">
+            <button type="button" class="filter-btn active" data-filter="all">
+              <span data-i18n="rf_all">All Rooms (4)</span>
+            </button>
+            <button type="button" class="filter-btn" data-filter="double">
+              <span data-i18n="rf_double">Double</span>
+            </button>
+            <button type="button" class="filter-btn" data-filter="twin">
+              <span data-i18n="rf_twin">Twin</span>
+            </button>
+            <button type="button" class="filter-btn" data-filter="single">
+              <span data-i18n="rf_single">Single</span>
+            </button>
+          </div>
+          <span class="micro text-taupe"></span>
+        </div>
+      </section>
+
+      <!-- ====================== ROOMS CATALOG ====================== -->
+      <section class="section">
+        <div class="container suite-list">
+          <!-- Room 1: Lux Double -->
+          <article
+            class="suite-card suite-card--feature"
+            id="lux-double"
+            data-category="double"
+          >
+            <div class="suite-card-img-wrap">
+              <img
+                src="public/images/Interior/Rooms/hotel-room-2.jpg"
+                width="900"
+                height="600"
+                alt="Lux Double room"
+              />
+              <span class="suite-badge" data-i18n="rm_badge_lux">Lux</span>
+            </div>
+            <div class="suite-card-body">
+              <div class="suite-meta">
+                <span>21 m²</span
+                ><span data-i18n="rm_bed_double">1 double bed</span
+                ><span data-i18n="rm_guests_2">2 guests</span>
+              </div>
+              <h2 class="suite-name">
+                <span data-i18n="rm_lux">Lux Double</span>
+              </h2>
+              <p class="suite-desc" data-i18n="rm_desc_lux">
+                A bright double room with a sea view. One double bed, a private
+                shower, a fridge and fast internet. Breakfast is included.
+              </p>
+              <div class="suite-amenities">
+                <div class="amenities-grid">
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >wifi</span
+                    >
+                    <span data-i18n="am_wifi">High-speed internet</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >shower</span
+                    >
+                    <span data-i18n="am_shower">Private shower</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >kitchen</span
+                    >
+                    <span data-i18n="am_fridge">In-room fridge</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >waves</span
+                    >
+                    <span data-i18n="am_sea">Sea view</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >room_service</span
+                    >
+                    <span data-i18n="am_concierge">24/7 concierge</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >dry_cleaning</span
+                    >
+                    <span data-i18n="am_robes">Robes &amp; Slippers</span>
+                  </div>
+                </div>
+              </div>
+              <div class="suite-price">
+                <span class="from" data-i18n="rm_from">From</span
+                ><span class="amount">180 ₾</span
+                ><span class="night" data-i18n="rm_night">per night</span>
+              </div>
+              <div class="suite-actions">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  onclick="openBookingModal('Lux Double')"
+                >
+                  <span data-i18n="btn_book_room">Book This Room</span>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline"
+                  onclick="
+                    openSuiteDetails(
+                      'Lux Double',
+                      '21 m²',
+                      '1 double bed',
+                      'High-speed internet, Private shower, In-room fridge, Sea view, 24/7 concierge, Robes &amp; Slippers',
+                    )
+                  "
+                >
+                  <span data-i18n="btn_details">Details</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Room 2: Standard Double -->
+          <article
+            class="suite-card suite-card--feature suite-card--reverse"
+            id="standard-double"
+            data-category="double"
+          >
+            <div class="suite-card-img-wrap">
+              <img
+                src="public/images/Interior/Rooms/hotel-room-5.jpeg"
+                width="900"
+                height="600"
+                loading="lazy"
+                alt="Standard Double room"
+              />
+              <span class="suite-badge" data-i18n="rm_badge_std">Standard</span>
+            </div>
+            <div class="suite-card-body">
+              <div class="suite-meta">
+                <span>25 m²</span
+                ><span data-i18n="rm_bed_double">1 double bed</span
+                ><span data-i18n="rm_guests_2">2 guests</span>
+              </div>
+              <h2 class="suite-name">
+                <span data-i18n="rm_std_double">Standard Double</span>
+              </h2>
+              <p class="suite-desc" data-i18n="rm_desc_std_double">
+                A comfortable double room with a sea view. One double bed, a
+                private shower, a fridge and fast internet. Breakfast is
+                included.
+              </p>
+              <div class="suite-amenities">
+                <div class="amenities-grid">
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >wifi</span
+                    >
+                    <span data-i18n="am_wifi">High-speed internet</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >shower</span
+                    >
+                    <span data-i18n="am_shower">Private shower</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >kitchen</span
+                    >
+                    <span data-i18n="am_fridge">In-room fridge</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >waves</span
+                    >
+                    <span data-i18n="am_sea">Sea view</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >room_service</span
+                    >
+                    <span data-i18n="am_concierge">24/7 concierge</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >dry_cleaning</span
+                    >
+                    <span data-i18n="am_robes">Robes &amp; Slippers</span>
+                  </div>
+                </div>
+              </div>
+              <div class="suite-price">
+                <span class="from" data-i18n="rm_from">From</span
+                ><span class="amount">160 ₾</span
+                ><span class="night" data-i18n="rm_night">per night</span>
+              </div>
+              <div class="suite-actions">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  onclick="openBookingModal('Standard Double')"
+                >
+                  <span data-i18n="btn_book_room">Book This Room</span>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline"
+                  onclick="
+                    openSuiteDetails(
+                      'Standard Double',
+                      '25 m²',
+                      '1 double bed',
+                      'High-speed internet, Private shower, In-room fridge, Sea view, 24/7 concierge, Robes &amp; Slippers',
+                    )
+                  "
+                >
+                  <span data-i18n="btn_details">Details</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Room 3: Standard Twin -->
+          <article
+            class="suite-card suite-card--feature"
+            id="standard-twin"
+            data-category="twin"
+          >
+            <div class="suite-card-img-wrap">
+              <img
+                src="public/images/Interior/Rooms/hotel-room-15.jpeg"
+                width="900"
+                height="600"
+                loading="lazy"
+                alt="Standard Twin room"
+              />
+              <span class="suite-badge" data-i18n="rm_badge_std">Standard</span>
+            </div>
+            <div class="suite-card-body">
+              <div class="suite-meta">
+                <span>21 m²</span
+                ><span data-i18n="rm_bed_twin">2 single beds</span
+                ><span data-i18n="rm_guests_2">2 guests</span>
+              </div>
+              <h2 class="suite-name">
+                <span data-i18n="rm_std_twin">Standard Twin</span>
+              </h2>
+              <p class="suite-desc" data-i18n="rm_desc_std_twin">
+                A room with two single beds, good for friends or colleagues. A
+                private shower, a fridge, a sea view and fast internet.
+                Breakfast is included.
+              </p>
+              <div class="suite-amenities">
+                <div class="amenities-grid">
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >wifi</span
+                    >
+                    <span data-i18n="am_wifi">High-speed internet</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >shower</span
+                    >
+                    <span data-i18n="am_shower">Private shower</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >kitchen</span
+                    >
+                    <span data-i18n="am_fridge">In-room fridge</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >waves</span
+                    >
+                    <span data-i18n="am_sea">Sea view</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >room_service</span
+                    >
+                    <span data-i18n="am_concierge">24/7 concierge</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >dry_cleaning</span
+                    >
+                    <span data-i18n="am_robes">Robes &amp; Slippers</span>
+                  </div>
+                </div>
+              </div>
+              <div class="suite-price">
+                <span class="from" data-i18n="rm_from">From</span
+                ><span class="amount">160 ₾</span
+                ><span class="night" data-i18n="rm_night">per night</span>
+              </div>
+              <div class="suite-actions">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  onclick="openBookingModal('Standard Twin')"
+                >
+                  <span data-i18n="btn_book_room">Book This Room</span>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline"
+                  onclick="
+                    openSuiteDetails(
+                      'Standard Twin',
+                      '21 m²',
+                      '2 single beds',
+                      'High-speed internet, Private shower, In-room fridge, Sea view, 24/7 concierge, Robes &amp; Slippers',
+                    )
+                  "
+                >
+                  <span data-i18n="btn_details">Details</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Room 4: Standard Single -->
+          <article
+            class="suite-card suite-card--feature suite-card--reverse"
+            id="standard-single"
+            data-category="single"
+          >
+            <div class="suite-card-img-wrap">
+              <img
+                src="public/images/Interior/Rooms/hotel-room-7.jpeg"
+                width="900"
+                height="600"
+                loading="lazy"
+                alt="Standard Single room"
+              />
+              <span class="suite-badge" data-i18n="rm_badge_std">Standard</span>
+            </div>
+            <div class="suite-card-body">
+              <div class="suite-meta">
+                <span>18 m²</span
+                ><span data-i18n="rm_bed_single">1 single bed</span
+                ><span data-i18n="rm_guests_1">1 guest</span>
+              </div>
+              <h2 class="suite-name">
+                <span data-i18n="rm_std_single">Standard Single</span>
+              </h2>
+              <p class="suite-desc" data-i18n="rm_desc_std_single">
+                A cosy room for one guest with a single bed. A private shower, a
+                fridge, a sea view and fast internet. Breakfast is included.
+              </p>
+              <div class="suite-amenities">
+                <div class="amenities-grid">
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >wifi</span
+                    >
+                    <span data-i18n="am_wifi">High-speed internet</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >shower</span
+                    >
+                    <span data-i18n="am_shower">Private shower</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >kitchen</span
+                    >
+                    <span data-i18n="am_fridge">In-room fridge</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >waves</span
+                    >
+                    <span data-i18n="am_sea">Sea view</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >room_service</span
+                    >
+                    <span data-i18n="am_concierge">24/7 concierge</span>
+                  </div>
+                  <div class="amenity-item">
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                      >dry_cleaning</span
+                    >
+                    <span data-i18n="am_robes">Robes &amp; Slippers</span>
+                  </div>
+                </div>
+              </div>
+              <div class="suite-price">
+                <span class="from" data-i18n="rm_from">From</span
+                ><span class="amount">140 ₾</span
+                ><span class="night" data-i18n="rm_night">per night</span>
+              </div>
+              <div class="suite-actions">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  onclick="openBookingModal('Standard Single')"
+                >
+                  <span data-i18n="btn_book_room">Book This Room</span>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline"
+                  onclick="
+                    openSuiteDetails(
+                      'Standard Single',
+                      '18 m²',
+                      '1 single bed',
+                      'High-speed internet, Private shower, In-room fridge, Sea view, 24/7 concierge, Robes &amp; Slippers',
+                    )
+                  "
+                >
+                  <span data-i18n="btn_details">Details</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ====================== INCLUDED (REAL FACTS ONLY) ====================== -->
+      <section
+        class="section section--dark inclusions-strip"
+        aria-labelledby="inclusionsTitle"
+      >
+        <div class="container">
+          <h2 class="sr-only" id="inclusionsTitle">Included with every stay</h2>
+          <div class="inclusions-grid">
+            <div class="inclusion-item">
+              <span
+                class="material-symbols-outlined inclusion-icon"
+                aria-hidden="true"
+                >free_breakfast</span
+              >
+              <div class="inclusion-title">
+                <span data-i18n="fac_t1">Breakfast included</span>
+              </div>
+              <p class="inclusion-desc">
+                <span data-i18n="fac_d1"
+                  >Served every morning in our sea-view restaurant.</span
+                >
+              </p>
+            </div>
+            <div class="inclusion-item">
+              <span
+                class="material-symbols-outlined inclusion-icon"
+                aria-hidden="true"
+                >waves</span
+              >
+              <div class="inclusion-title">
+                <span data-i18n="inc2_t2">Near the sea</span>
+              </div>
+              <p class="inclusion-desc">
+                <span data-i18n="inc2_d2"
+                  >300 m to the Black Sea and 50 m to the New Boulevard.</span
+                >
+              </p>
+            </div>
+            <div class="inclusion-item">
+              <span
+                class="material-symbols-outlined inclusion-icon"
+                aria-hidden="true"
+                >wifi</span
+              >
+              <div class="inclusion-title">
+                <span data-i18n="fac_t5">Free Wi-Fi</span>
+              </div>
+              <p class="inclusion-desc">
+                <span data-i18n="fac_d5"
+                  >Internet in rooms and common areas.</span
+                >
+              </p>
+            </div>
+            <div class="inclusion-item">
+              <span
+                class="material-symbols-outlined inclusion-icon"
+                aria-hidden="true"
+                >concierge</span
+              >
+              <div class="inclusion-title">
+                <span data-i18n="fac_t3">Reception &amp; lounge</span>
+              </div>
+              <p class="inclusion-desc">
+                <span data-i18n="fac_d3"
+                  >Friendly front desk and a comfortable seating area.</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ====================== FOOTER ====================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-brand-name" data-i18n="logo_name">
+              Hotel Gonio Batumi
+            </div>
+            <p class="footer-about" data-i18n="footer_desc">
+              A comfortable hotel in Batumi, close to the sea and the New
+              Boulevard. Breakfast included.
+            </p>
+            <div class="footer-social">
+              <a
+                class="soc-pill"
+                href="https://www.instagram.com/hotel_gonio_batumi"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <img src="public/Icons/instagram.png" alt="" />
+                <span>Instagram</span>
+              </a>
+              <a
+                class="soc-pill"
+                href="https://www.facebook.com/hotel.gonio.batumi.sast.umro.gonio.batumi"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <img src="public/Icons/facebook.png" alt="" />
+                <span>Facebook</span>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="footer-section-label">
+              <span data-i18n="footer_nav">Navigation</span>
+            </div>
+            <ul class="footer-nav">
+              <li>
+                <a href="index.html" data-i18n="nav_home">Home</a>
+              </li>
+              <li>
+                <a href="suites.html" data-i18n="nav_link_suites"
+                  >Rooms &amp; Suites</a
+                >
+              </li>
+              <li>
+                <a href="index.html#facilities" data-i18n="nav_facilities"
+                  >Facilities</a
+                >
+              </li>
+              <li>
+                <a href="index.html#gallery" data-i18n="nav_gallery">Gallery</a>
+              </li>
+              <li>
+                <a href="index.html#location" data-i18n="nav_location"
+                  >Location</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="footer-section-label">
+              <span data-i18n="footer_contact">Concierge &amp; Inquiries</span>
+            </div>
+            <div class="footer-contact-row">
+              <span class="material-symbols-outlined" aria-hidden="true"
+                >location_on</span
+              ><span data-i18n="loc_address"
+                >Sherif Khimshiashvili St. 59, Batumi, Adjara, Georgia</span
+              >
+            </div>
+            <div class="footer-contact-row">
+              <span class="material-symbols-outlined" aria-hidden="true"
+                >call</span
+              ><a href="tel:+995577929321">+995 577 92 93 21</a>
+            </div>
+            <div class="footer-contact-row">
+              <span class="material-symbols-outlined" aria-hidden="true"
+                >mail</span
+              ><a href="mailto:hotelgoniobatumi@gmail.com"
+                >hotelgoniobatumi@gmail.com</a
+              >
+            </div>
+            <button
+              type="button"
+              class="btn btn-outline btn-sm footer-btn"
+              onclick="openBookingModal('')"
+            >
+              <span data-i18n="cta_reserve">Make a Reservation</span>
+            </button>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © <span data-year>2025</span>
+            <span data-i18n="footer_rights">Hotel Gonio Batumi</span>
+          </p>
+          <!-- TODO: add Privacy / Terms pages, then uncomment
+          <div class="footer-legal">
+            <a href="privacy.html"><span data-i18n="footer_privacy">Privacy Policy</span></a>
+            <a href="terms.html"><span data-i18n="footer_terms">Terms of Stay</span></a>
+          </div>
+          -->
+        </div>
+      </div>
+    </footer>
+
+    <!-- ====================== FAB ====================== -->
+    <div class="fab">
+      <a
+        href="https://wa.me/995577929321"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary"
+        style="gap: 0.6rem"
+      >
+        <span class="material-symbols-outlined" style="font-size: 1rem"
+          >chat</span
+        >
+        <span data-i18n="fab_label">Concierge</span>
+      </a>
+    </div>
+
+    <div class="soc-float">
+      <a
+        class="soc-btn"
+        href="https://wa.me/995577929321"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="WhatsApp"
+        ><img src="public/Icons/whatsapp.png" alt=""
+      /></a>
+      <a
+        class="soc-btn"
+        href="https://t.me/+995577929321"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Telegram"
+        ><img src="public/Icons/telegram.png" alt=""
+      /></a>
+      <a
+        class="soc-btn"
+        href="viber://chat?number=%2B995577929321"
+        aria-label="Viber"
+        ><img src="public/Icons/viber.png" alt=""
+      /></a>
+    </div>
+
+    <div class="dock" id="dock">
+      <a
+        class="soc-btn"
+        href="https://wa.me/995577929321"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="WhatsApp"
+        ><img src="public/Icons/whatsapp.png" alt=""
+      /></a>
+      <a
+        class="soc-btn"
+        href="https://t.me/+995577929321"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Telegram"
+        ><img src="public/Icons/telegram.png" alt=""
+      /></a>
+      <a
+        class="soc-btn"
+        href="viber://chat?number=%2B995577929321"
+        aria-label="Viber"
+        ><img src="public/Icons/viber.png" alt=""
+      /></a>
+      <button
+        type="button"
+        class="btn btn-primary"
+        onclick="openBookingModal('')"
+      >
+        <span data-i18n="nav_book_now">Book Now</span>
+      </button>
+    </div>
+
+    <!-- ====================== BOOKING MODAL ====================== -->
+    <div
+      class="modal-overlay"
+      id="bookingModal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="bookingModalTitle"
+      style="display: none"
+    >
+      <div class="modal-box">
+        <button
+          type="button"
+          class="modal-close"
+          onclick="closeBookingModal()"
+          aria-label="Close"
+        >
+          <span class="material-symbols-outlined" aria-hidden="true"
+            >close</span
+          >
+        </button>
+        <div class="modal-head">
+          <div class="micro text-gold" data-i18n="modal_eyebrow">
+            Hotel Gonio Batumi Reservation
+          </div>
+          <h2 class="h2" id="bookingModalTitle">
+            <span data-i18n="modal_title">Request Your Stay</span>
+          </h2>
+          <p class="modal-lead" data-i18n="modal_subtitle">
+            Our reservation administrator will review availability and contact
+            you personally to finalize your booking.
+          </p>
+        </div>
+
+        <form id="reservationForm" onsubmit="submitReservationForm(event)">
+          <div class="grid-2 form-row">
+            <div class="form-group">
+              <label class="form-label" for="res-name"
+                ><span data-i18n="field_name">Guest Full Name</span> *</label
+              >
+              <input
+                class="form-input"
+                id="res-name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                placeholder="Alexander Smith"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="res-phone"
+                ><span data-i18n="field_phone">Contact Phone</span> *</label
+              >
+              <input
+                class="form-input"
+                id="res-phone"
+                name="phone"
+                type="tel"
+                autocomplete="tel"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group form-row">
+            <label class="form-label" for="res-email"
+              ><span data-i18n="field_email">Email Address</span> *</label
+            >
+            <input
+              class="form-input"
+              id="res-email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              placeholder="guest@domain.com"
+              required
+            />
+          </div>
+
+          <div class="grid-2 form-row">
+            <div class="form-group">
+              <label class="form-label" for="res-checkin"
+                ><span data-i18n="field_checkin">Check-In Date</span> *</label
+              >
+              <input
+                class="form-input"
+                id="res-checkin"
+                name="checkin"
+                type="date"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="res-checkout"
+                ><span data-i18n="field_checkout">Check-Out Date</span> *</label
+              >
+              <input
+                class="form-input"
+                id="res-checkout"
+                name="checkout"
+                type="date"
+                autocomplete="off"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-row-3 form-row">
+            <div class="form-group">
+              <label class="form-label" for="res-adults"
+                ><span data-i18n="field_adults">Adults</span> *</label
+              >
+              <select
+                class="form-select"
+                id="res-adults"
+                name="adults"
+                data-i18n-opts="adults_1,adults_2"
+              >
+                <option value="1" data-i18n="adults_1">1 Adult</option>
+                <option value="2" selected data-i18n="adults_2">
+                  2 Adults
+                </option>
+              </select>
+              <span
+                class="form-select single-adult-value"
+                id="singleAdultValue"
+                data-i18n="adults_1"
+                hidden
+                >1 Adult</span
+              >
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="res-children"
+                ><span data-i18n="field_children">Children</span></label
+              >
+              <select
+                class="form-select"
+                id="res-children"
+                name="children"
+                data-i18n-opts="children_0,children_1"
+              >
+                <option value="0" selected data-i18n="children_0">
+                  0 Children
+                </option>
+                <option value="1" data-i18n="children_1">1 Child</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="res-roomtype"
+                ><span data-i18n="field_room">Suite Category</span> *</label
+              >
+              <select
+                class="form-select"
+                id="res-roomtype"
+                name="suite"
+                required
+                data-i18n-opts="rm_lux,rm_std_double,rm_std_twin,rm_std_single"
+              >
+                <option value="Lux Double" data-i18n="rm_lux">
+                  Lux Double
+                </option>
+                <option value="Standard Double" data-i18n="rm_std_double">
+                  Standard Double
+                </option>
+                <option value="Standard Twin" data-i18n="rm_std_twin">
+                  Standard Twin
+                </option>
+                <option value="Standard Single" data-i18n="rm_std_single">
+                  Standard Single
+                </option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group form-row form-row--last">
+            <label class="form-label" for="res-notes"
+              ><span data-i18n="field_notes"
+                >Special Inquiries or Arrival Notes</span
+              ></label
+            >
+            <textarea
+              class="form-textarea"
+              id="res-notes"
+              name="notes"
+              rows="3"
+              data-i18n-ph="notes_ph"
+              placeholder="Airport transfer, dietary requests, floor preference..."
+            ></textarea>
+          </div>
+
+          <div class="form-error" id="formErrorMessage" role="alert"></div>
+          <button class="btn btn-primary btn-block" type="submit">
+            <span data-i18n="btn_submit">Submit Reservation Request</span>
+            <span class="material-symbols-outlined btn-icon" aria-hidden="true"
+              >send</span
+            >
+          </button>
+        </form>
+
+        <div class="spinner" id="reservationLoading">
+          <div class="spinner-ring"></div>
+          <span class="micro text-taupe"
+            ><span data-i18n="loading_msg"
+              >Submitting to Concierge Desk…</span
+            ></span
+          >
+        </div>
+
+        <div class="form-success" id="reservationSuccess" role="status">
+          <div class="success-icon">
+            <span class="material-symbols-outlined" aria-hidden="true"
+              >done_all</span
+            >
+          </div>
+          <div class="micro text-gold">
+            <span data-i18n="success_badge">Inquiry Received</span>
+          </div>
+          <h3 class="h3">
+            <span data-i18n="success_title">Your request is with our team</span>
+          </h3>
+          <p class="modal-lead" data-i18n="success_p">
+            Our team will contact you soon to confirm availability and the
+            details of your stay.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline btn-sm"
+            onclick="closeBookingModal()"
+          >
+            <span data-i18n="btn_close">Close</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================== ROOM DETAILS MODAL ====================== -->
+    <div
+      class="modal-overlay"
+      id="suiteDetailsModal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalSuiteTitle"
+      style="display: none"
+    >
+      <div class="modal-box modal-box--sm">
+        <button
+          type="button"
+          class="modal-close"
+          onclick="closeSuiteDetails()"
+          aria-label="Close"
+        >
+          <span class="material-symbols-outlined" aria-hidden="true"
+            >close</span
+          >
+        </button>
+        <div class="micro text-gold">
+          <span data-i18n="det_badge">Suite Specification</span>
+        </div>
+        <h2 class="h2 modal-suite-title" id="modalSuiteTitle"></h2>
+        <div class="spec-grid">
+          <div class="spec-item">
+            <div class="spec-label">
+              <span data-i18n="det_area_label">Floor Plan</span>
+            </div>
+            <div class="spec-value" id="modalSuiteArea"></div>
+          </div>
+          <div class="spec-item">
+            <div class="spec-label">
+              <span data-i18n="det_bed_label">Bedding</span>
+            </div>
+            <div class="spec-value" id="modalSuiteBed"></div>
+          </div>
+        </div>
+        <div class="micro text-taupe modal-subhead">
+          <span data-i18n="det_amenities">Included Amenities</span>
+        </div>
+        <div
+          class="amenities-grid modal-amenities"
+          id="modalSuiteAmenities"
+        ></div>
+        <button
+          type="button"
+          class="btn btn-primary btn-block"
+          onclick="proceedFromDetails()"
+        >
+          <span data-i18n="det_proceed">Proceed to Reservation</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-cta" id="mobileCta">
+      <a
+        class="mobile-cta-icon"
+        href="https://wa.me/995577929321"
+        target="_blank"
+        rel="noopener"
+        aria-label="WhatsApp"
+      >
+        <span class="material-symbols-outlined">chat</span>
+      </a>
+      <a class="mobile-cta-icon" href="tel:+995577929321" aria-label="Call">
+        <span class="material-symbols-outlined">call</span>
+      </a>
+      <button class="btn btn-primary" onclick="openBookingModal('')">
+        <span data-i18n="nav_book_now">Book Now</span>
+      </button>
+    </div>
+
+    <script src="i18n.js"></script>
+    <script src="i18n-fix.js"></script>
+    <script src="i18n-tr.js"></script>
+    <script src="main.js"></script>
+    <script src="polish.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@29.5.0/dist/js/intlTelInput.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var phoneInput = document.getElementById("res-phone");
+        if (phoneInput && window.intlTelInput) {
+          window.intlTelInput(phoneInput, {
+            initialCountry: "ge",
+            countryOrder: [
+              "ge",
+              "ru",
+              "us",
+              "gb",
+              "de",
+              "tr",
+              "ua",
+              "am",
+              "az",
+            ],
+            loadUtils: function () {
+              return import("https://cdn.jsdelivr.net/npm/intl-tel-input@29.5.0/dist/js/utils.js");
+            },
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
